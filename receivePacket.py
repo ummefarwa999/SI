@@ -2,7 +2,7 @@ import socket
 import sys
 from thread import *
 
-HOST = '172.16.64.205'   # Symbolic name meaning all available interfaces
+HOST = '---.--.--.---'  #Enter IP Address # Symbolic name meaning all available interfaces
 PORT = 1300
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
